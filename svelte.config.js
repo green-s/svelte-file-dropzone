@@ -17,11 +17,10 @@ const config = {
 
 		files: {
 			assets: "src/static"
-		},
-
-		package: {
-			exports: (filepath) => filepath === 'index.ts'
 		}
+	},
+	package: {
+		exports: (filepath) => filepath === 'index.ts'
 	}
 };
 
